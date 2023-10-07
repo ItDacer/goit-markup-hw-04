@@ -1,0 +1,303 @@
+:root {
+    --color-kek:#2E2F42;
+    --color-active-kek:#404BBF;
+    --color-button:#4D5AE5;
+    --color-kekl:#434455;
+    --color-main:#FFFFFF;
+    --c-bgc-light: #FFF;
+    --color-team:#F4F4FD;
+    --color-head:#e7e9fc
+}
+/* ТЕГИ */
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+button {
+    font-family: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-bgc-light);
+    color: var(--color-kekl);
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+/* БОШКА */
+.header {
+    border-bottom: 1px solid var(--color-head);
+}
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+/* ЛОГОТИП */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-button);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    display: inline-block;
+}
+.logo-accent {
+    color:var(--color-kek);
+}
+.logo-end {
+    color:var(--color-team);
+}
+/* ССЫЛКИ */
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.nav-link {
+    color: var(--color-kek);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+.nav-link:focus {
+    color: var(--color-active-kek);
+}
+ .nav-link:hover {
+    color: var(--color-active-kek);
+}
+/* АДРЕССА */
+.info {
+    font-style: normal;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+.inf {
+    display: block;
+    color: var(--color-kekl);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.inf:focus {
+    color: var(--color-active-kek);
+}
+
+.inf:hover {
+    color: var(--color-active-kek);
+}
+/* ПЕРВАЯ СЕКЦИЯ */
+.sone {
+    background-color:var(--color-kek);
+    padding: 188px 0;
+}
+.h-one {
+    color:var(--color-main);
+    background-color: var(--color-kek);
+    font-size: 56px;
+    line-height: 1.07;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+/*КНОПКА*/
+.button {
+    color:var(--color-main);
+    background-color:var(--color-button);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+.button:focus {
+    background-color:var(--color-active-kek);
+}
+.button:hover {
+    background-color:var(--color-active-kek);
+}
+/* ВТОРАЯ СЕКЦИЯ */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.stwo {
+    padding: 120px 0;
+}
+.main-p {
+    gap: 24px;
+    display: flex;
+    margin: 0;
+}
+.peli {
+    flex-basis: calc((100% - 72px) / 4);
+}
+.kings {
+    color:var(--color-kek);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.narratives {
+    color:var(--color-kekl);
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+/* ТРЕТЬЯ СЕКЦИЯ */
+.sthree {
+    background-color:var(--color-team);
+    padding: 120px 0;
+}
+/* КОМАНДА */
+.ourteam {
+    color:var(--color-kek);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team {
+    display: flex;
+    gap: 24px;
+}
+.team-list {
+    background-color:var(--color-main);
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.card {
+    padding: 32px 0;
+}
+.name {
+    color:var(--color-kek);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.prof {
+    color:var(--color-kekl);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/* ПОРТФОЛИО И ЧЕТВЁРТАЯ СЕКЦИЯ */
+.sfour {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfol-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfol-number {
+    flex-basis: calc((100% - 48px) / 3);
+}
+.portfol-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfol {
+    color:var(--color-kek);
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.app {
+    color:var(--color-kek);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.mark {
+    color: var(--color-kekl);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* КОНЕЦ */
+.foot {
+    background-color:var(--color-kek);
+    padding: 100px 0;
+}
+.logo-foot {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-button);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-team);
+    max-width: 264px;
+}
