@@ -407,27 +407,46 @@ color: #fff;
     letter-spacing: 0.02em;
 }
 /* КОНЕЦ */
-.foot {
-    background-color:var(--color-kek);
+.footer {
+    background-color: #2E2F42;
     padding: 100px 0;
 }
-.logo-foot {
-    font-family: 'Raleway', sans-serif;
-    color: var(--color-button);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    display: inline-block;
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    margin-left: 156px;
 }
-.paragraph {
+
+.logo-text-footer {
+    margin-right: 120px;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--color-team);
+    text-align: left;
     max-width: 264px;
 }
+
+.logo-footer {
+    color: #4d5ae5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-accent {
+    color: #f4f4fd;
+}
+
 .text-icon {
     color: #FFFFFF;
     font-size: 16px;
@@ -436,6 +455,7 @@ color: #fff;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
+
 .footer-icon-ul {
     display: flex;
     gap: 16px;
