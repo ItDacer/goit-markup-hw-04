@@ -86,7 +86,7 @@ h6 {
 }
 .current {
     position: relative;
-    color: var(--color-active-kek)
+    color: #404BBF;
 }
 
 .nav-link.current::after {
