@@ -84,11 +84,13 @@ h6 {
     display: flex;
     gap: 40px;
 }
+.current {
+    position: relative;
+    color: #404bbf;
+}
 .nav-link.current::after {
     content: '';
     position: absolute;
-    position: relative;
-    color: #404bbf;
     left: 0;
     bottom: -1px;
     display: block;
