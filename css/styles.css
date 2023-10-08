@@ -86,7 +86,7 @@ h6 {
 }
 .current {
     position: relative;
-    color: #404bbf;
+    color: #404BBF;
 }
 .nav-link.current::after {
     content: '';
